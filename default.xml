@@ -10,6 +10,8 @@
   <remote  name="github"
            fetch="https://github.com/copperheados/"
            revision="refs/heads/oreo-r6-release" />
+  <remote  name="thrive"
+	   fetch="https://github.com/pio-masaki/" />
   <default revision="refs/tags/android-8.0.0_r4"
            remote="aosp"
            sync-j="4" />
@@ -600,9 +602,9 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
-  <project path="vendor/google_devices" name="vendor_google_devices" remote="github" />
-  <project path="vendor/huawei" name="vendor_huawei" remote="github" />
-  <project path="vendor/lge" name="vendor_lge" remote="github" />
+  <project path="device/thrive" name="pio-masaki/CM10.1_device_tostab03" remote="thrive" />
+  <project path="vendor/thrive" name="pio-masaki/CM10.1_vendor_tostab03" remote="thrive" />
+
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
