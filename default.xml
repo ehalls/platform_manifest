@@ -10,6 +10,8 @@
   <remote  name="github"
            fetch="https://github.com/copperheados/"
            revision="refs/heads/oreo-r6-release" />
+  <remote  name="opo"
+	   fetch="https://github.com/agentfabulous/" /> 
   <default revision="refs/tags/android-8.0.0_r4"
            remote="aosp"
            sync-j="4" />
@@ -603,7 +605,9 @@
   <project path="vendor/google_devices" name="vendor_google_devices" remote="github" />
   <project path="vendor/huawei" name="vendor_huawei" remote="github" />
   <project path="vendor/lge" name="vendor_lge" remote="github" />
-
+  <project path="vendor/opo" name="vendor_oneplus" remote="opo" revision="refs/heads/n7x" />
+  <project path="device/opo/bacon" name="android_oreo_bacon" remote="opo" revision="refs/heads/device_oneplus_bacon" />
+  <project path="kernel/opo/bacon" name="android_oreo_bacon" remote="opo" revision="refs/heads/kernel_oneplus_msm8974" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
 </manifest>
