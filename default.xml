@@ -65,10 +65,6 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
   <project path="device/google/marlin" name="device_google_marlin" groups="device,marlin" remote="github" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
-  <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="github" />
-  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk,pdk" clone-depth="1" />
-  <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead,pdk" remote="github" />
-  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead,pdk" clone-depth="1" />
   <project path="device/linaro/bootloader/arm-trusted-firmware" name="device/linaro/bootloader/arm-trusted-firmware" />
   <project path="device/linaro/bootloader/edk2" name="device/linaro/bootloader/edk2" />
   <project path="device/linaro/bootloader/OpenPlatformPkg" name="device/linaro/bootloader/OpenPlatformPkg" />
@@ -419,9 +415,6 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="kernel/google/marlin" name="kernel_google_marlin" remote="github" />
-  <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="github" />
-  <project path="kernel/lge/bullhead" name="kernel_lge_bullhead" remote="github" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="libcore" name="platform_libcore" groups="pdk" remote="github" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
@@ -603,8 +596,6 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <project path="vendor/google_devices" name="vendor_google_devices" remote="github" />
-  <project path="vendor/huawei" name="vendor_huawei" remote="github" />
-  <project path="vendor/lge" name="vendor_lge" remote="github" />
   <project path="vendor/opo" name="vendor_oneplus" remote="opo" revision="refs/heads/n7x" />
   <project path="device/opo/bacon" name="android_oreo_bacon" remote="opo" revision="refs/heads/device_oneplus_bacon" />
   <project path="kernel/opo/bacon" name="android_oreo_bacon" remote="opo" revision="refs/heads/kernel_oneplus_msm8974" />
